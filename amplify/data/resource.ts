@@ -16,6 +16,7 @@ const schema = a.schema({
     .authorization((allow) => [allow.owner()]),
 });
 
+type Schema = ClientSchema<typeof schema>
 
 const data = defineData({
   schema,
@@ -56,5 +57,6 @@ Fetch records from the database and use them in your frontend component.
 
 export {
   schema,
+  Schema,
   data
 }

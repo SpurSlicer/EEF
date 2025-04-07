@@ -9,5 +9,4 @@ const auth = defineAuth({
   },
 });
 
-
 export { auth };
