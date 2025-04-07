@@ -33,3 +33,10 @@ amplifyconfiguration*
 
 # other
 test_access_keys.csv
+
+
+# amplify
+node_modules
+.amplify
+amplify_outputs*
+amplifyconfiguration*
