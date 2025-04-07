@@ -29,3 +29,7 @@ node_modules
 .amplify
 amplify_outputs*
 amplifyconfiguration*
+
+
+# other
+test_access_keys.csv
